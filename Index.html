@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank holidays</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <script src="Script.js"></script>
+    <header>
+        <h1>Bank Holidays</h1>
+        <div class="country_btns" id="cn_Btns">
+            <button id="England" onclick="handleData(), removeimg()">England and Wales</button>
+            <button id="Scotland" onclick="handleData2(), removeimg()">Scotland</button>
+            <button id="Ireland" onclick="handleData3(), removeimg()">Northern Ireland</button>
+        </div>
+    </header>
+
+    <div class="main" id="main"></div>
+    <div id="remove_content" class="remove_content">
+        <div class="content_img">
+            <img src="tne4zr1f.bmp" alt="England" height="400px" width="400px">
+            <img src="7w8073f0.bmp" alt="Scotland" height="400px" width="400px">
+            <img src="Northern_ireland.png" alt="Northern Ireland" height="400px" width="400px">
+        </div>
+    </div>
+
+    <footer>Copyright &copy;
+        <script>document.write(new Date().getFullYear())</script> Bank Holidays
+    </footer>
+</body>
+
+</html>

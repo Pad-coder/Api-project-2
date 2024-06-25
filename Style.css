@@ -1,0 +1,116 @@
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    margin: 0;
+    min-height: 100%;
+    padding-bottom: 5rem;
+    box-sizing: inherit;
+}
+header{
+    height: 80px;
+    background-color: rgb(187, 171, 224);
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    position: sticky;
+    z-index: 1000;
+}
+header h1{
+    margin-left: 10px;
+    width: 600px;
+    color: rgb(241, 231, 231);
+    letter-spacing: 7px;
+}
+
+footer{
+    height: 70px;
+    color: #eeeeee;
+    background-color: rgb(58, 67, 73);
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    text-align: center;
+    align-content: center;
+}
+
+.country_btns{
+    width: 50%;
+    height: 80px;
+    margin-left: 50%;
+    display: flex;
+    align-items: right;
+    background: transparent;
+    justify-content: right;
+    z-index: 1000;
+}
+
+.country_btns button{
+    height: 45px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(82, 87, 87);
+    cursor: pointer;
+}
+
+.main{
+    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.list{
+    height:100px;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(187, 171, 224);
+    box-shadow: 0px 10px 10px 0px rgb(187, 171, 224);
+    border-radius: 5px;
+}
+
+.list h2{
+    width: 250px;
+    text-align: left;
+    font-size: larger;
+    color:  rgb(82, 87, 87);
+}
+
+.list p{
+    font-size: larger;
+    color:  rgb(82, 87, 87);
+}
+
+.remove_content{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    position: absolute;
+    top: 100;
+}
+.content_img{
+display: flex;
+
+}
+.remove_content img{
+    height: 200px;
+    width: 300px;
+    border: none;
+    margin: 50px ;
+    margin-top: 150px;
+    display: flex;
+    align-content: center;
+}
+
